@@ -1,0 +1,12 @@
+{
+  "extends": "../../shared/tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@types/*": ["../../shared/types/*"],
+      "@utils/*": ["../../shared/utils/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
